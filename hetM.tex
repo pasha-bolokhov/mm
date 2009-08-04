@@ -143,6 +143,9 @@
 \newcommand{\MN}{M_\text{SU($N$)}}
 \newcommand{\MU}{M_{\rm U(1)}}
 
+\newcommand{\tgamma}{\wt{\gamma}}
+\newcommand{\btgamma}{\ov{\tgamma}}
+
 \begin{document}
 
 
@@ -873,7 +876,14 @@ the	index $ i = 1,~ 2 $ labels the Cartesian coordinates in this plane.
 
 	When \ntwo supersymmetry is broken, the string internal dynamics is altered, and, as was shown
 	in \cite{Edalati}, the world sheet theory is given by \ntwoo \CPCn.
-	This theory has one dimensionless coupling $ \gamma $ \cite{SYhet,BSYhet}, which is determined by the
+	This theory has one dimensionless coupling $ \tgamma $
+\footnote{
+In this paper the heterotic deformation parameter $ \tgamma $ is related to the analogous parameter
+$ \gamma $ introduced in \cite{SYhet} as 
+\[
+	\tgamma ~~=~~ \sqrt{2/\beta}\,\gamma\,.
+\]}
+ \cite{SYhet,BSYhet}, which is determined by the
 	measure of supersymmetry breaking.
 	In two-dimensional theory, this parameter sets the strength of the coupling of the translational
 	sector to the orientational one,
@@ -908,8 +918,8 @@ S_{1+1}^{(0,2)} ~~=~~ 2\beta
 	&
 	\;\;
 	+~~
-	\gamma\, (i\p_L\nbar) \xir\zr ~~+~~ \ov{\gamma}\, \bxir (i\p_L n) \bzr ~~+~~
-	|\gamma|^2\, \bxil\xil \bzr\zr  
+	\tgamma\, (i\p_L\nbar) \xir\zr ~~+~~ \ov{\tgamma}\, \bxir (i\p_L n) \bzr ~~+~~
+	|\tgamma|^2\, \bxil\xil \bzr\zr  
 	\\[2mm]
 %
 \notag
@@ -917,7 +927,7 @@ S_{1+1}^{(0,2)} ~~=~~ 2\beta
 	\;\;
 \left.
 	+~~ 
-	\left( 1 \;-\; |\gamma|^2 \right)\, \bxil\xir \bxir\xil  
+	\left( 1 \;-\; |\tgamma|^2 \right)\, \bxil\xir \bxir\xil  
 	~~-~~ \bxil\xil \bxir\xir
 \rgr .
 \end{align}
@@ -931,9 +941,9 @@ S_{1+1}^{(0,2)} ~~=~~ 2\beta
 	\mathcal{W}_{1+1} ~~=~~ \frac{1}{2}\,\delta\,\Sigma^2\,,
 \]
 	where $\Sigma$ is a chiral superfield, a part of the gauge supermultiplet.
-The parameter $ \delta $ is related to $ \gamma $ via
+The parameter $ \delta $ is related to $ \tgamma $ via
 \[
-	\gamma ~~=~~ \frac { \sqrt{2}\,\delta } { \sqrt{ 1 +  2 |\delta|^2 } }\,.
+	\tgamma ~~=~~ \frac { \sqrt{2}\,\delta } { \sqrt{ 1 +  2 |\delta|^2 } }\,.
 \]
 	The gauged formulation has a somewhat more direct physical interpretation than
 	the representation \eqref{world02}, as the quantum behavior of the system is more directly
@@ -942,7 +952,7 @@ The parameter $ \delta $ is related to $ \gamma $ via
 	$ \delta \to \infty $ supposedly corresponds to a conformal phase of the world sheet theory.
 
 	For a non-Abelian string in \ntwo SQCD broken down to \none by soft mass terms $ \mu_1 $ and $ \mu_2 $
-	(see Eq.~\eqref{none}), the relation between $ \gamma $ and $ \mu $ was found to be logarithmic \cite{SYhet,BSYhet}
+	(see Eq.~\eqref{none}), the relation between $ \tgamma $ and $ \mu $ was found to be logarithmic \cite{SYhet,BSYhet}
 \beq
 	\delta ~~=~~ 
 	{\rm const} \cdot \sqrt{\ln\, \frac{g_2^2\mu}{m_W}}
@@ -955,7 +965,7 @@ The parameter $ \delta $ is related to $ \gamma $ via
 	When the $ M $ field is present, the Higgs branch does not develop in the large-$ \mu $
 	limit, and the adjoint
 	fields are safely integrated out without disrupting the \ntwoo CP($N-1$) theory.
-	The two-dimensional parameter $ \gamma $ is then determined by the microscopic parameter $ h $ of the  $ M $ model. 
+	The two-dimensional parameter $ \tgamma $ is then determined by the microscopic parameter $ h $ of the  $ M $ model. 
 	Below we find the fermionic zero modes in the vortex background in the $M$ model,
 	and use them to obtain the relation between these two parameters. 
 	
@@ -1417,7 +1427,7 @@ on the value of $h$.
 
 \subsection{Bifermionic Coupling}
 
-The easiest way to obtain the coupling constant $ \gamma $ of the heterotic ${\rm CP}(N-1)$ model
+The easiest way to obtain the coupling constant $ \tgamma $ of the heterotic ${\rm CP}(N-1)$ model
 is to calculate the strength of the coupling of the supertranslational and superorientational
 modes induced on the string world sheet
 \beq
@@ -1426,9 +1436,9 @@ modes induced on the string world sheet
 	2\beta \cdot I_{\zeta\xi}\, ( i\p_L\nbar\,\xir\zr ~+~ \bxir\,i\p_L n\, \bzr )\,,
 \eeq
 where we separate the factor  $ 2\beta $ for convenience. 
-It is natural to assume that $ \gamma $ will be real, since the deformation $h$ is.
+It is natural to assume that $ \tgamma $ will be real, since the deformation $h$ is.
 
-To be able to compare this coupling constant to $ \gamma $ in Eq.~\eqref{world02} one has to normalize 
+To be able to compare this coupling constant to $ \tgamma $ in Eq.~\eqref{world02} one has to normalize 
 the participating fermions.
 We define the normalization integrals $ I_\zeta $ and $ I_\xi $ for the fermions $ \zeta $ and $ \xi $ as
 \beq
@@ -1470,7 +1480,7 @@ The logarithms come from the domain $ 1/m_W \ll r \ll 1/m_0 $  of the zero mode 
 functions.
 
 Normalizing the world-sheet fermions using the above integrals, one arrives at the answer
-for the world-sheet coupling $ \gamma $ up to a contribution suppressed by the inverse large logarithms.
+for the world-sheet coupling $ \tgamma $ up to a contribution suppressed by the inverse large logarithms.
 Parametrically, the logarithms under consideration can be written as 
 \[
 	\ln \frac{m_W}{m_0}  ~~\simeq~~ 
@@ -1479,10 +1489,12 @@ Parametrically, the logarithms under consideration can be written as
 where $ h $ is small.
 Overall our result takes the form
 \[
-	\gamma ~~=~~ \frac{\sqrt{2}\delta}{\sqrt{1 ~+~ 2|\delta|^2}} ~~=~~ 
+	\tgamma ~~=~~ \frac{\sqrt{2}\delta}{\sqrt{1 ~+~ 2|\delta|^2}} ~~=~~ 
 		\frac{I_{\zeta\xi}}{\sqrt{I_\zeta\, I_\xi}}  ~~=~~
-			1 ~+~ O\lgr \frac{1}{\ln g_2^2/h } \rgr\,.
+			1 ~+~ O\lgr \frac{1}{\ln g_2^2/h } \rgr
 \]
+	(remind that in this paper $ \tgamma $ is related to $ \gamma $ of \cite{SYhet} as
+	$ \tgamma = \sqrt{2/\beta}\, \gamma $).
 Therefore, 
 \beq
 \label{deltaresult}
